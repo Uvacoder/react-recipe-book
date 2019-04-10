@@ -1,19 +1,51 @@
-.delete-button {
+.button {
   margin-top: 1rem;
   padding: 1rem;
   font-size: 1rem;
   border-radius: 3px;
-  background-color: #F24236;
   border-color: transparent;
-  color: #ffffff;
   font-weight: 300;
 }
 
-.delete-button:hover {
+.button:hover {
   cursor: pointer;
   opacity: 0.9;
 }
 
-.delete-button:focus {
+.button:focus {
   outline: transparent;
+}
+
+.delete-button {
+  background-color: #F24236;
+  color: #ffffff;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.edit-button {
+  color: #ffffff;
+  background-color: green;
+  position: absolute;
+  bottom: 5rem;
+  left: 1rem;
+}
+
+.back-button {
+  background-color: #C78283;
+  color: #ffffff;
+}
+
+.recipe-title {
+  color: white;
+  font-weight: 300;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.recipe-description {
+  color: white;
+  font-weight: 300;
+  font-size: 1.5rem;
 }

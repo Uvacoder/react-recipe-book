@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-input {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.recipe-input:focus {
+  outline: transparent;
+}
+
+.back-button {
+  margin-bottom: 1rem;
+}
+
+.submit-button {
+  background-color: green;
+  color: white;
+}
