@@ -1,0 +1,20 @@
+.card-wrapper {
+  width: 10rem;
+  border: 1px solid black;
+  margin: 1rem 1rem 0 0;
+  text-align: center;
+}
+
+.card-wrapper:hover {
+  opacity: 0.9;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

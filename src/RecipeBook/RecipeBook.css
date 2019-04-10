@@ -1,0 +1,24 @@
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.add-button {
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 3px;
+  background-color: #C78283;
+  border-color: transparent;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.add-button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.add-button:focus {
+  outline: transparent;
+}
